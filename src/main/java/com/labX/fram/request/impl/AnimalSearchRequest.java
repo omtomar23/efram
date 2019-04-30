@@ -13,4 +13,8 @@ public class AnimalSearchRequest implements Request {
         this.type = type;
         return this;
     }
+    
+    public String getType() {
+    	return type;
+    }
 }

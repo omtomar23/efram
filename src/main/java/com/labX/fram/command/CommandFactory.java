@@ -6,5 +6,5 @@ import org.springframework.stereotype.Component;
 
 @Component
 public interface CommandFactory {
-    <I extends Request, O extends Dataset<?>> Command<I,O> resolve(final String name);
+    <I extends Request, O extends Dataset<?>, C extends Command<I,O>> C resolve(final String name);
 }
