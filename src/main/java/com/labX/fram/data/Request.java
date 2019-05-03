@@ -1,4 +1,4 @@
-package com.labX.fram.request;
+package com.labX.fram.data;
 
 public interface Request {
 }
